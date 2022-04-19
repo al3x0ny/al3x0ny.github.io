@@ -75,3 +75,6 @@ Disallow: /
 
 User-agent: *
 Disallow:
+
+Host: https://coderonix.ml
+Sitemap: https://coderonix.ml/sitemap.xml

@@ -68,3 +68,13 @@ function initGoogleMap() {
         icon: 'images/map_marker.png'
     });
 }
+
+window.addEventListener('load', function () {
+    var scriptElement = document.createElement('script');
+
+    scriptElement.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyA_KSYl_X2xaNBN8P8xuO9qOkWogSZVPYU&region=UA&language=en&callback=initGoogleMap&v=weekly';
+    scriptElement.type = 'text/javascript';
+    scriptElement.async = true;
+
+    document.body.appendChild(scriptElement);
+});

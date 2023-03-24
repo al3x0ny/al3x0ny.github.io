@@ -74,5 +74,5 @@ User-agent: HTTrack
 Disallow: /
 
 User-agent: *
-Host: https://coderonix.ml
-Sitemap: https://coderonix.ml/sitemap.xml
+Host: https://coderonix.github.io
+Sitemap: https://coderonix.github.io/sitemap.xml
